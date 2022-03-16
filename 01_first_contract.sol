@@ -6,11 +6,11 @@ contract test {
     // Integers
     uint nombre; //2**8 = 256 uint == uint256. uint default value is zero
 
-    function getNombre() public view returns(uint) {
-        return nombre;
+    function getNumber() public view returns(uint) {
+        return number;
     }
 
-    function setNombre(uint _nombre) public {
-        nombre = _nombre;
+    function setNumber(uint _number) public {
+        number = _number;
     }
 }
