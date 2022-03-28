@@ -4,8 +4,8 @@ pragma solidity >= 0.8.7 < 0.9;
 contract Exercise {
 
     // revert (with more complex logic) and require : will allow you to return a value, will refund any remaining gas to the caller
-    // assert: to prevent anything really bad from happening
-    
+    // assert: to prevent anything bad from happening
+
     uint number;
 
     function setNumber(uint _number) public {
